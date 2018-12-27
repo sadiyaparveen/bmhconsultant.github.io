@@ -1695,6 +1695,20 @@ body .row-fluid .header-section{
 	text-align:center;
 }
 
+@media(max-width:767px){
+
+	.vertical-center{
+	    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	
+	}
+
+}
+
+
+
 
 .body-main-container h1{
 	font-family: 'Roboto', sans-serif;
