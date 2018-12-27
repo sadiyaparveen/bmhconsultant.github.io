@@ -1695,6 +1695,17 @@ body .row-fluid .header-section{
 	text-align:center;
 }
 
+
+
+
+
+
+.body-main-container h1{
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+
 @media(max-width:767px){
 	
 body .row-fluid .vertical-center {
@@ -1710,9 +1721,3 @@ body .row-fluid .vertical-center {
 }
 
 
-
-
-.body-main-container h1{
-	font-family: 'Roboto', sans-serif;
-	
-}
