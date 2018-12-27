@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="Website.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+</head>
+<body>
+    <div class="row-fluid">
+<!--<div class="nav topnav header-section span12" id="myTopnav">
+    <div class="wrapper">
+        <div class="row-fluid-wrapper">
+    <div class="row-fluid">
+    <div class="span3 col-1"><h2>Logo</h2></div>
+    <div class="span9 col-2">
+        <div class="menu-container">
+             <label for="toggle"><div class="mobile-trigger"><i></i></div></label>
+        <input type="checkbox" id="toggle"/>
+            <div class="menu">
+            <ul>
+  <li><a href="#" class="active">About Us</a></li>
+  <li><a href="#">Services</a></li>
+  <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        </div>
+        </div>
+
+             
+    </div>
+    </div>
+</div>-->
+<div class="body-main-container vertical-center align-center all-text-white span12">
+<div class="row-fluid">
+<h1> Coming Soon</h1>
+<p>For More Details Contact Us on 9900942672</p>
+</div>
+</div>
+
+    </div>
+    
+    
+    
+    <script>
+    $(document).ready(function(){
+      $('#toggle').click(function(){
+       $('.menu').slideToggle();   
+      });  
+        
+    });
+        
+        $(document).ready(function(){
+      $('.mobile-trigger').click(function(){
+       $('.mobile-trigger').toggleClass('mobile-open');   
+      });  
+        
+    });
+        
+    $(document).ready(function(){
+
+if($(window).width() <= 1024){
+
+$('.header-section .col-3 .cta-container .cta-1').slice().appendTo('.header-section .col-2 .menu-container ul');
+$('.header-section .col-3 .cta-container .cta-2').slice().appendTo('.header-section .col-2 .menu-container ul');
+}
+
+});
+    </script>
+    </body>
+</html>
