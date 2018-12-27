@@ -1697,13 +1697,15 @@ body .row-fluid .header-section{
 
 @media(max-width:767px){
 	
-.vertical-center{
+body .row-fluid .vertical-center {
     display: flex;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-	
-	}
+    -webkit-justify-content: center;
+    justify-content: center;
+}
 
 }
 
